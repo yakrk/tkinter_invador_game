@@ -16,18 +16,18 @@ screen.title("Breakout Game")
 screen.tracer(0)
 
 # set images
-ball_img = r"images\pokeball.gif"
+ball_img = r"images\ball.gif"
 screen.addshape(ball_img)
-meowth_img = r"images\meowth.gif"
-screen.addshape(meowth_img)
-eevee_img = r"images\eevee.gif"
-screen.addshape(eevee_img)
-snorlax_img = r"images\snorlax.gif"
-screen.addshape(snorlax_img)
-mew_img = r"images\mew.gif"
-screen.addshape(mew_img)
-aliens_img = [meowth_img, eevee_img, snorlax_img, mew_img]
-attack_img = r"images\fist.gif"
+img1 = r"images\1.gif"
+screen.addshape(img1)
+img2 = r"images\2.gif"
+screen.addshape(img2)
+img3 = r"images\3.gif"
+screen.addshape(img3)
+img4 = r"images\4.gif"
+screen.addshape(img4)
+aliens_img = [img1, img2, img3, img4]
+attack_img = r"images\attack.gif"
 screen.addshape(attack_img)
 
 # define class

@@ -5,7 +5,7 @@ class Ship(Turtle):
 
     def __init__(self, position):
         super().__init__()
-        img = r"C:\Users\yusuk\dev\projects\InvaderGame\images\pikachu.gif"
+        img = r"images\ship.gif"
         screen = Screen()
         screen.addshape(img)
         self.shape(img)
