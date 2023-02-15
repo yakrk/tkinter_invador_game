@@ -10,24 +10,24 @@ import random
 screen = Screen()
 screen.setup(width=800, height=600)
 screen.bgpic(
-    r"C:\Users\yusuk\dev\projects\InvaderGame\images\grass_background.gif")
+    r"images\grass_background.gif")
 # screen.bgcolor("black")
 screen.title("Breakout Game")
 screen.tracer(0)
 
 # set images
-ball_img = r"C:\Users\yusuk\dev\projects\InvaderGame\images\pokeball.gif"
+ball_img = r"images\pokeball.gif"
 screen.addshape(ball_img)
-meowth_img = r"C:\Users\yusuk\dev\projects\InvaderGame\images\meowth.gif"
+meowth_img = r"images\meowth.gif"
 screen.addshape(meowth_img)
-eevee_img = r"C:\Users\yusuk\dev\projects\InvaderGame\images\eevee.gif"
+eevee_img = r"images\eevee.gif"
 screen.addshape(eevee_img)
-snorlax_img = r"C:\Users\yusuk\dev\projects\InvaderGame\images\snorlax.gif"
+snorlax_img = r"images\snorlax.gif"
 screen.addshape(snorlax_img)
-mew_img = r"C:\Users\yusuk\dev\projects\InvaderGame\images\mew.gif"
+mew_img = r"images\mew.gif"
 screen.addshape(mew_img)
 aliens_img = [meowth_img, eevee_img, snorlax_img, mew_img]
-attack_img = r"C:\Users\yusuk\dev\projects\InvaderGame\images\fist.gif"
+attack_img = r"images\fist.gif"
 screen.addshape(attack_img)
 
 # define class
