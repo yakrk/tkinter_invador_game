@@ -12,7 +12,7 @@ screen.setup(width=800, height=600)
 screen.bgpic(
     r"images\grass_background.gif")
 # screen.bgcolor("black")
-screen.title("Breakout Game")
+screen.title("Invador Game")
 screen.tracer(0)
 
 # set images
@@ -36,8 +36,6 @@ score = Score()
 balls = []
 
 # shoot ball
-
-
 def shoot_ball():
     global balls
     global is_shot_alive
@@ -49,25 +47,25 @@ def shoot_ball():
     balls[-1].set((ship.xcor(), ship.ycor()), ball_img)
 
 
-# define aliens
+# initially position aliens
 start_x_position = -280
 start_y_position = 100
 aliens = []
-for j in range(4):
+for j in range(4)
     y_position = j*40 + start_y_position
     for i in range(8):
         x_position = i * 70 + start_x_position
         aliens.append(Alien((x_position, y_position), aliens_img[j]))
 
 
-# define initial variables
+# define screen and onkey function
 screen.listen()
 screen.onkeypress(ship.go_left, "Left")
 screen.onkeypress(ship.go_right, "Right")
 screen.onkey(shoot_ball, "space")
 
 
-# set ball action
+# set initial status
 game_is_on = True
 is_shot_alive = False
 is_alien_attack_alive = False
