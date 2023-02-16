@@ -23,13 +23,3 @@ class Ball(Turtle):
     
     def disappear(self):
         self.goto(50000,50000)
-        
-        
-
-
-    # def direction(self):
-    #     if self.x_move > 0:
-    #         is_moving_right = True
-    #     else:
-    #         is_moving_right = False
-    #     return is_moving_right
